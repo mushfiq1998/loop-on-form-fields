@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+    <meta charset="UTF8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user registration </title>
+    </head>
+<body>
+    <form action="" method="get">
+        Get label and input tags of form fields using for loop:<br>
+        {% for field in form %}
+            {{field.label_tag}}
+            <!--Responsible for generating input tags-->
+            {{field}}<br>
+        {% endfor %}
+    </form><br>
+    <input type="submit" value="Submit">
+</body>
+</html>
